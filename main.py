@@ -35,7 +35,7 @@ def to_roman(arabic):
 # Калькуляруем
 def calculate(parts):
     if len(parts) != 3:
-        raise ValueError("Получено меньше данных чем ожидалось")
+        raise ValueError("Формат входных данных не соответствует ожидаемому")
 
     # Получаем операнды и оператор
     a, op, b = parts

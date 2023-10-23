@@ -63,7 +63,7 @@ class Calculator {
     // Калькуляруем
     public static String calculate(String[] parts) {
         if (parts.length != 3) {
-            throw new IllegalArgumentException("Получено меньше данных чем ожидалось");
+            throw new IllegalArgumentException("Формат входных данных не соответствует ожидаемому");
         }
 
         // Получаем операнды и оператор

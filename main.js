@@ -40,7 +40,7 @@ function toRoman(arabic) {
 // Калькуляруем
 function calculate(parts) {
     if (parts.length !== 3) {
-        throw new Error("Формат математической операции не удовлетворяет заданию");
+        throw new Error("Формат входных данных не соответствует ожидаемому");
     }
 
     // Получаем операнды и оператор
